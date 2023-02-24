@@ -1,8 +1,6 @@
 package Excersice1;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Snail {
@@ -16,11 +14,12 @@ public class Snail {
          int b;
          int h;
          int avance = 0;
-         int sube, regresa;
+         int sube;
          Scanner leer = new Scanner(System.in);
          a = leer.nextInt();
          b = leer.nextInt();
          h = leer.nextInt();
+         leer.close();
          
         if (h <= a ){
             System.out.println(1);
